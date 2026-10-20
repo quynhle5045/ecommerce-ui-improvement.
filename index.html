@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Giao diện minh họa trang chi tiết sản phẩm thương mại điện tử.">
+  <title>Tiki | Chi tiết sản phẩm</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#" aria-label="Tiki - Trang chủ">tiki<span>.</span></a>
+      <form class="search" role="search" action="#" method="get">
+        <label class="sr-only" for="search-input">Tìm kiếm sản phẩm</label>
+        <input id="search-input" type="search" placeholder="Tìm sản phẩm, danh mục hay thương hiệu..." />
+        <button type="button" aria-label="Tìm kiếm">⌕ <span>Tìm kiếm</span></button>
+      </form>
+      <a class="header-link" href="#purchase">🛒 <span>Giỏ hàng</span></a>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <nav class="breadcrumbs" aria-label="Đường dẫn">
+      <a href="#">Trang chủ</a><span>/</span><a href="#">Điện tử</a><span>/</span>
+      <a href="#">Âm thanh</a><span>/</span><span>Tai nghe không dây</span>
+    </nav>
+
+    <article class="product-layout">
+      <section class="gallery" aria-label="Hình ảnh sản phẩm">
+        <div class="main-image">
+          <span class="image-tag">CHÍNH HÃNG</span>
+          <div class="headphone-art" role="img" aria-label="Minh họa tai nghe không dây màu trắng">
+            <svg viewBox="0 0 420 360" aria-hidden="true">
+              <defs>
+                <linearGradient id="cup" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#ffffff"/>
+                  <stop offset="0.55" stop-color="#e9edf1"/>
+                  <stop offset="1" stop-color="#cbd2da"/>
+                </linearGradient>
+                <linearGradient id="band" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0" stop-color="#cbd2da"/>
+                  <stop offset="0.45" stop-color="#ffffff"/>
+                  <stop offset="1" stop-color="#dce2e8"/>
+                </linearGradient>
+                <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+                  <feDropShadow dx="0" dy="13" stdDeviation="10" flood-color="#6c7785" flood-opacity=".18"/>
+                </filter>
+              </defs>
+              <ellipse cx="210" cy="300" rx="125" ry="17" fill="#dce4ec" opacity=".6"/>
+              <g filter="url(#shadow)" transform="rotate(-8 210 170)">
+                <path d="M112 190 C78 54 147 25 211 28 C278 29 339 75 312 194" fill="none" stroke="#bfc8d2" stroke-width="31" stroke-linecap="round"/>
+                <path d="M112 185 C86 67 151 43 211 44 C267 44 324 82 311 184" fill="none" stroke="url(#band)" stroke-width="23" stroke-linecap="round"/>
+                <rect x="83" y="154" width="67" height="122" rx="28" fill="url(#cup)" stroke="#c9d1da" stroke-width="2"/>
+                <rect x="270" y="154" width="67" height="122" rx="28" fill="url(#cup)" stroke="#c9d1da" stroke-width="2"/>
+                <rect x="95" y="168" width="44" height="95" rx="21" fill="#e0e5eb"/>
+                <rect x="281" y="168" width="44" height="95" rx="21" fill="#e0e5eb"/>
+                <path d="M100 177 Q116 166 133 178" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+                <path d="M288 177 Q304 166 320 178" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+                <rect x="151" y="40" width="118" height="12" rx="6" fill="#f8fafc" opacity=".85"/>
+              </g>
+            </svg>
+          </div>
+          <p class="image-caption">Hình ảnh minh họa sản phẩm</p>
+        </div>
+        <div class="thumbnail-row" aria-label="Ảnh sản phẩm">
+          <button class="thumbnail active" type="button" aria-label="Ảnh tai nghe góc chính">
+            <span class="mini-headphones">◖◗</span>
+          </button>
+          <button class="thumbnail" type="button" aria-label="Ảnh tai nghe góc nghiêng">
+            <span class="mini-headphones tilted">◖◗</span>
+          </button>
+          <button class="thumbnail" type="button" aria-label="Ảnh hộp sạc">
+            <span class="mini-case">▱</span>
+          </button>
+          <button class="thumbnail video-thumb" type="button" aria-label="Xem video sản phẩm">▶</button>
+        </div>
+        <section class="highlights">
+          <h2>Điểm nổi bật</h2>
+          <ul>
+            <li>Thiết kế gọn nhẹ, phù hợp sử dụng hằng ngày.</li>
+            <li>Kết nối Bluetooth ổn định với thiết bị tương thích.</li>
+            <li>Điều khiển tiện lợi và hộp sạc nhỏ gọn.</li>
+          </ul>
+        </section>
+      </section>
+
+      <section class="product-info" aria-labelledby="product-title">
+        <div class="trust-badges">
+          <span class="badge badge-blue">Tiki Trading</span>
+          <span class="badge">Đổi trả 30 ngày</span>
+        </div>
+        <p class="product-category">Âm thanh · Tai nghe không dây</p>
+        <h1 id="product-title">Tai nghe Bluetooth không dây SoundMax Air Pro, thiết kế tối giản, hộp sạc nhỏ gọn</h1>
+        <div class="rating-line">
+          <span class="stars" aria-label="5 trên 5 sao">★★★★★</span>
+          <a href="#reviews">4.8 <span class="muted">(1.284 đánh giá)</span></a>
+          <span class="separator">|</span>
+          <span class="muted">Đã bán 3,2k+</span>
+        </div>
+
+        <section class="price-panel" aria-label="Thông tin giá">
+          <p class="eyebrow">Giá sau ưu đãi</p>
+          <div class="price-row">
+            <strong class="current-price">339.575đ</strong>
+            <span class="discount">-58%</span>
+          </div>
+          <div class="old-price-row">
+            <del>799.000đ</del>
+            <span class="muted">Giá niêm yết</span>
+          </div>
+          <p class="saving"><span aria-hidden="true">✓</span> Đã tính ưu đãi VIP · Tiết kiệm 459.425đ</p>
+          <details class="coupon-details">
+            <summary>Xem chi tiết ưu đãi</summary>
+            <p>Giá minh họa đã bao gồm khoản giảm giá VIP 59.925đ. Điều kiện thực tế có thể thay đổi theo chương trình.</p>
+          </details>
+        </section>
+
+        <section class="options" aria-label="Tùy chọn sản phẩm">
+          <fieldset class="color-options">
+            <legend>Màu sắc: <strong id="selected-color">Trắng</strong></legend>
+            <button class="color-choice selected" type="button" aria-pressed="true" data-color="Trắng">
+              <span class="swatch swatch-white"></span>Trắng
+            </button>
+            <button class="color-choice" type="button" aria-pressed="false" data-color="Đen">
+              <span class="swatch swatch-black"></span>Đen
+            </button>
+          </fieldset>
+          <div class="quantity-block">
+            <span class="field-label">Số lượng</span>
+            <div class="quantity-control">
+              <button type="button" id="decrease" aria-label="Giảm số lượng">−</button>
+              <output id="quantity" aria-live="polite">1</output>
+              <button type="button" id="increase" aria-label="Tăng số lượng">+</button>
+            </div>
+            <span class="stock-note">Còn hàng</span>
+          </div>
+        </section>
+
+        <section class="purchase" id="purchase" aria-label="Thao tác mua hàng">
+          <button class="btn btn-primary" id="buy-now" type="button">Mua ngay</button>
+          <button class="btn btn-secondary" id="add-cart" type="button"><span aria-hidden="true">＋</span> Thêm vào giỏ hàng</button>
+          <p class="interaction-message" id="interaction-message" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="delivery">
+          <h2>Thông tin giao hàng</h2>
+          <div class="delivery-item">
+            <span class="delivery-icon" aria-hidden="true">▣</span>
+            <div><strong>Giao hàng tiêu chuẩn</strong><p>Dự kiến 2–4 ngày · Phí vận chuyển hiển thị khi thanh toán</p></div>
+          </div>
+          <div class="delivery-item">
+            <span class="delivery-icon" aria-hidden="true">↻</span>
+            <div><strong>Đổi trả thuận tiện</strong><p>Hỗ trợ đổi trả theo điều kiện của sản phẩm.</p></div>
+          </div>
+        </section>
+      </section>
+    </article>
+
+    <section class="details-section">
+      <h2>Mô tả sản phẩm</h2>
+      <p>SoundMax Air Pro là mẫu tai nghe không dây hướng đến nhu cầu nghe nhạc, học tập và làm việc mỗi ngày. Thiết kế tối giản, hộp sạc gọn nhẹ và thao tác điều khiển thuận tiện giúp bạn dễ dàng mang theo khi di chuyển.</p>
+      <div class="spec-grid">
+        <div><span>Loại kết nối</span><strong>Bluetooth</strong></div>
+        <div><span>Thiết kế</span><strong>Không dây, hộp sạc</strong></div>
+        <div><span>Nhu cầu sử dụng</span><strong>Âm nhạc, học tập, cuộc gọi</strong></div>
+        <div><span>Màu sắc</span><strong>Trắng / Đen</strong></div>
+      </div>
+      <p class="disclaimer">Lưu ý: Đây là giao diện bài tập minh họa. Tên thương hiệu, thông số, giá, lượt đánh giá và ưu đãi không đại diện cho một sản phẩm đang được bán thực tế.</p>
+    </section>
+
+    <section class="details-section reviews" id="reviews">
+      <h2>Đánh giá từ khách hàng</h2>
+      <p><span class="stars">★★★★★</span> <strong>4.8/5</strong> <span class="muted">— dữ liệu minh họa</span></p>
+      <p>“Thiết kế gọn, dễ mang theo và phù hợp để nghe nhạc trong lúc di chuyển.”</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Giao diện học tập HTML5 &amp; CSS3 · Không kết nối hệ thống bán hàng thật</p>
+  </footer>
+
+  <script>
+    // JavaScript nhỏ chỉ để minh họa tương tác giao diện; không có backend.
+    const quantityOutput = document.querySelector("#quantity");
+    const message = document.querySelector("#interaction-message");
+    let quantity = 1;
+
+    document.querySelector("#decrease").addEventListener("click", () => {
+      quantity = Math.max(1, quantity - 1);
+      quantityOutput.textContent = quantity;
+    });
+
+    document.querySelector("#increase").addEventListener("click", () => {
+      quantity = Math.min(99, quantity + 1);
+      quantityOutput.textContent = quantity;
+    });
+
+    document.querySelectorAll(".color-choice").forEach((button) => {
+      button.addEventListener("click", () => {
+        document.querySelectorAll(".color-choice").forEach((item) => {
+          item.classList.remove("selected");
+          item.setAttribute("aria-pressed", "false");
+        });
+        button.classList.add("selected");
+        button.setAttribute("aria-pressed", "true");
+        document.querySelector("#selected-color").textContent = button.dataset.color;
+        const art = document.querySelector(".headphone-art");
+    art.classList.toggle("is-black", button.dataset.color === "Đen");
+    art.setAttribute("aria-label", `Minh họa tai nghe không dây màu ${button.dataset.color.toLowerCase()}`);
+  });
+});
+
+    document.querySelector("#add-cart").addEventListener("click", () => {
+      message.textContent = `Đã thêm ${quantity} sản phẩm màu ${document.querySelector("#selected-color").textContent} vào giỏ hàng minh họa.`;
+    });
+
+    document.querySelector("#buy-now").addEventListener("click", () => {
+      message.textContent = `Bạn đã chọn ${quantity} sản phẩm màu ${document.querySelector("#selected-color").textContent}. Đây là bản demo, chưa có chức năng thanh toán.`;
+    });
+
+    document.querySelectorAll(".thumbnail").forEach((button) => {
+      button.addEventListener("click", () => {
+        document.querySelectorAll(".thumbnail").forEach((item) => item.classList.remove("active"));
+        button.classList.add("active");
+      });
+    });
+  </script>
+</body>
+</html>
